@@ -134,6 +134,7 @@
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="Inc_Dec.cpp" />
     <ClCompile Include="LogicOperation.cpp" />
+    <ClCompile Include="Methods.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="Switch.cpp" />
     <ClCompile Include="While.cpp" />

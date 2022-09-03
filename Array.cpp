@@ -1,6 +1,6 @@
 // Массивы
 
-
+/*
 #include <iostream>
 using namespace std;
 
@@ -48,3 +48,4 @@ void main() {
 	//workWithArray2();
 	workWithArray3();
 }
+*/
