@@ -136,7 +136,6 @@
     <ClCompile Include="LogicOperation.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="Switch.cpp" />
-    <ClCompile Include="Test.cpp" />
     <ClCompile Include="While.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

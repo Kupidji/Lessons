@@ -1,6 +1,6 @@
 // ћассивы
 
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -31,11 +31,20 @@ void workWithArray2() {
 }
 
 //двумерный массив
+// int arr[2][5];
+// заполнение int arr[2][5]{{2,4,5,1,5},{1,6,2,5,7}}
 
+void workWithArray3(){
+	int arr[2][3]{ {1,2,3}, {4,5,6} };
+	for (int i = 0; i < 2; i++)	{
+		for (int j = 0; j < 3; j++)	{
+			cout << arr[i][j] << " ";
+		}
+	}
+}
 
 void main() {
-	workWithArray();
-	workWithArray2();
-
+	//workWithArray();
+	//workWithArray2();
+	workWithArray3();
 }
-*/
