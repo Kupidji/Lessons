@@ -135,11 +135,27 @@
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="Inc_Dec.cpp" />
     <ClCompile Include="LogicOperation.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Methods.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="RecursionFunction.cpp" />
     <ClCompile Include="Switch.cpp" />
     <ClCompile Include="While.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="Cin.h" />
+    <ClInclude Include="Continue.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="For.h" />
+    <ClInclude Include="HelloWorld.h" />
+    <ClInclude Include="Inc_Dec.h" />
+    <ClInclude Include="LogicOperation.h" />
+    <ClInclude Include="Methods.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="RecursionFunction.h" />
+    <ClInclude Include="Switch.h" />
+    <ClInclude Include="While.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

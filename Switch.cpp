@@ -1,7 +1,7 @@
 // Оператор Switch
 
-/*
 #include <iostream>
+#include "Switch.h";
 using namespace std;
 
 // Структура
@@ -15,7 +15,7 @@ using namespace std;
 //		break;
 //	}
 
-void main(){
+void workSwitch(){
 	int a;
 	setlocale(LC_ALL, "Rus");
 	cout << "Введите любое число: ";
@@ -38,4 +38,3 @@ void main(){
 		break;
 	}
 }
-*/

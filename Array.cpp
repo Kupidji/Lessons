@@ -1,7 +1,7 @@
 // Массивы
-
-/*
 #include <iostream>
+#include "Array.h";
+
 using namespace std;
 
 //способы инициализации
@@ -43,9 +43,3 @@ void workWithArray3(){
 	}
 }
 
-void main() {
-	//workWithArray();
-	//workWithArray2();
-	workWithArray3();
-}
-*/

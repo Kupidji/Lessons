@@ -1,9 +1,9 @@
-/*
+
 #include<iostream>
+#include "HelloWorld.h";
 using namespace std;
 
-int main() {
+void HelloWorld() {
 	setlocale(LC_ALL, "Rus");
 	cout << "Привет!" << endl;
 }
-*/

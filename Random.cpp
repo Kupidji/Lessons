@@ -1,7 +1,8 @@
 // Генератор случайных чисел
-/*
+
 #include <iostream>
 #include <ctime>
+#include "Random.h";
 using namespace std;
 
 // Чтобы генерировать случайное число нужно:
@@ -10,7 +11,7 @@ using namespace std;
 // 3) a = rand();
 // если нужен конкретный диапозон, то пишем a = rand() % число;
 
-void main() {
+void workRandom() {
 	setlocale(LC_ALL, "Rus");
 	srand(time(NULL));
 	int a;
@@ -19,4 +20,3 @@ void main() {
 	a = rand() % 10; // рандомное число от 0 - 9
 	cout << a << endl;
 }
-*/

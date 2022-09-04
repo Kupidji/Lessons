@@ -1,7 +1,7 @@
 // Создание методов(функций)
 
-/*
 #include <iostream>
+#include "Methods.h";
 using namespace std;
 
 // void - функция ничего не возвращает
@@ -35,10 +35,3 @@ template <typename T> T sum2(T a, T b) { //метод работает с любым типом, но толь
 template <typename T1, typename T2> T1 sum3(T1 a, T2 b) { //метод возвращает T1 (под T1 может быть int или double, результатом будет тип, который был принят первее)
 	return a + b;
 }
-
-void main() {
-	setlocale(LC_ALL, "Rus");
-	sayInfo("Кирилл", 20, 177);
-	cout << sum3(5, 5.2);
-}
-*/

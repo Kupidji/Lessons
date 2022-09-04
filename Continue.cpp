@@ -1,10 +1,10 @@
 // Ключевое слово continue
 
-/*
 #include <iostream>
+#include "Continue.h";
 using namespace std;
 
-void main() {
+void workContinue() {
 	for (int i = 0; i < 5; i++) {
 		if (i == 2 || i == 4) {
 			continue;
@@ -12,4 +12,3 @@ void main() {
 		cout << "i = " << i << endl;
 	}
 }
-*/

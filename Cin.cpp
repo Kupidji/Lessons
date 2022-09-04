@@ -1,10 +1,11 @@
 //Ввод данных
 
-/*
+
 #include <iostream>
+#include "Cin.h";
 using namespace std;
 
-void homeWork() {
+void workCin() {
 	int firstValue, secondValue, thirdValue;
 	int sum, mult;
 	double mid_value;
@@ -23,9 +24,4 @@ void homeWork() {
 	cout << "Среднее арифмитическое - " << mid_value << endl;
 }
 
-int main() {
-	setlocale(LC_ALL, "Rus");
-	homeWork();
-	system("pause");
-}
-*/
+

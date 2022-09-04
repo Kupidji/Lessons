@@ -1,10 +1,10 @@
 // Циклы while, do while
 
-/*
 #include <iostream>
+#include "While.h";
 using namespace std;
 
-void main() {
+void workWhile() {
 	int a = 0;
 	setlocale(LC_ALL, "Rus");
 	while (a < 3) {
@@ -20,4 +20,3 @@ void main() {
 	} while (a < 3);
 	cout << "Я вышел из программы do while" << endl;
 }
-*/

@@ -1,8 +1,8 @@
 // Рекурсия
 
-/*
 #include <iostream>
 using namespace std;
+#include "RecursionFunction.h";
 
 string req(int a) {
 	if (a < 1) {
@@ -27,9 +27,3 @@ int fuctorial(int a) { // Факториал
 	}
 	
 }
-
-void main() {
-	setlocale(LC_ALL, "Rus");
-	cout << fuctorial(5);
-}
-*/

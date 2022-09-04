@@ -1,7 +1,7 @@
 // Логические операции
 
-/*
 #include <iostream>
+#include "LogicOperation.h";
 using namespace std;
 
 
@@ -10,7 +10,7 @@ using namespace std;
 // ! = не
 
 
-void main(){
+void workLogicOperation(){
 	bool b1 = true, b2 = false;
 	setlocale(LC_ALL, "Rus");
 	cout << "&&)";
@@ -35,4 +35,3 @@ void main(){
 		cout << " Не прошел проверку" << endl;
 	}
 }
-*/

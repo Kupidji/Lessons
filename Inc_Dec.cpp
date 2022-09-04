@@ -1,10 +1,10 @@
 //Инкремент и декремент
 
-/*
 #include <iostream>
+#include "Inc_Dec.h";
 using namespace std;
 
-int main() {
+void workInc_Dec() {
 	int a = 2;
 	a++;
 	cout << a << endl;
@@ -23,4 +23,3 @@ int main() {
 	a *= 2; // Умножает на 2 a      == a = a * 2;
 	cout << a << endl;
 }
-*/

@@ -1,9 +1,10 @@
 // Работа с файлами
 
-/*
+
 #include <iostream>
 #include <fstream>
-#include <string>
+#include "File.h";
+#include <string>;
 using namespace std;
 
 // Для работы с файлами нужно
@@ -52,17 +53,10 @@ void readFile() {
 		// или можно собрать все в одну строку
 		string str;
 		while (!fin.eof()) { //пока не конец файла...
-			getline(fin, str); //зыаисываем данные в строчку
+			getline(fin, str); //зыаисываем данные в строчку #include <string>
 			cout << str << endl;
 		}
 	}
 	fin.close();
 }
 
-void main() {
-	setlocale(LC_ALL, "Rus");
-	//createFile();
-	//appendSomething();
-	readFile();
-}
-*/

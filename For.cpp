@@ -1,10 +1,11 @@
 // Цикл for, фишки
 
-/*
+
 #include <iostream>
+#include "For.h";
 using namespace std;
 
-void main() {
+void workFor() {
 	setlocale(LC_ALL, "Rus");
 
 	//Обычный цикл
@@ -31,4 +32,3 @@ void main() {
 		cout << "Переменная j = " << j << endl;
 	}
 }
-*/
