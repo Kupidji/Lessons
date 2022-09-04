@@ -17,9 +17,28 @@ int sum(int a, int b) {
 	return result;
 }
 
+// Перегрузка методов
+void sayInfo(string name) {
+	cout << "Привет, меня зовут " << name << endl;
+}
+void sayInfo(string name, int age) {
+	cout << "Привет, меня зовут " << name <<", мне "<< age << " лет" << endl;
+}
+void sayInfo(string name, int age, int weight) {
+	cout << "Привет, меня зовут " << name << ", мне " << age << " лет," << " мой рост - " << weight << endl;
+}
+
+// Шаблонные методы
+template <typename T> T sum2(T a, T b) { //метод работает с любым типом, но только одним. На вход нельзя дать int и double.
+	return a + b;
+}
+template <typename T1, typename T2> T1 sum3(T1 a, T2 b) { //метод возвращает T1 (под T1 может быть int или double, результатом будет тип, который был принят первее)
+	return a + b;
+}
+
 void main() {
 	setlocale(LC_ALL, "Rus");
-	sayMyName("Кирилл");
-	cout<< sum(2 , 5) << endl;
+	sayInfo("Кирилл", 20, 177);
+	cout << sum3(5, 5.2);
 }
 */
