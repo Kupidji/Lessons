@@ -130,6 +130,7 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Cin.cpp" />
     <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="File.cpp" />
     <ClCompile Include="For.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="Inc_Dec.cpp" />
