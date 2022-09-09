@@ -6,7 +6,7 @@ using namespace std;
 
 string req(int a) {
 	if (a < 1) {
-		return "Я гуль";
+		return "What?";
 	}
 	else if (a > 1) {
 		a -= 7;
