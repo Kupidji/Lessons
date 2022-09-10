@@ -20,8 +20,8 @@ using namespace std;
 
 void main() {
 	setlocale(LC_ALL, "Rus");
-	int a = 0;
-	cout << a << endl;
-	workPointers3(&a);
-	cout << a << endl;
+	int a = 20, b = 7;
+	cout << a << "\t" << b << endl;
+	workPointers4(&a, &b);
+	cout << a << "\t" << b << endl;
 }
