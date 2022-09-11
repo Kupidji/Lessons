@@ -137,6 +137,7 @@
     <ClCompile Include="LogicOperation.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Methods.cpp" />
+    <ClCompile Include="New_Delete.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="RecursionFunction.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="Inc_Dec.h" />
     <ClInclude Include="LogicOperation.h" />
     <ClInclude Include="Methods.h" />
+    <ClInclude Include="New_Delete.h" />
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="Random.h" />
     <ClInclude Include="RecursionFunction.h" />

@@ -15,14 +15,14 @@ void workReference() {
 	cout << "ra \t" << ra << endl;
 }
 
-void workReference2(int& a, int& b) {
+void workReference2(int& a, int& b) { 
 	int temp;
 	temp = a;
 	a = b;
 	b = temp;
 }
 
-template <typename T> void workReference3(T &ra, T &rb){
+template <class T> void workReference3(T& ra, T& rb) { // Добавь в main, чтобы работало.
 	T temp;
 	temp = ra;
 	ra = rb;
