@@ -14,14 +14,16 @@
 //#include "RecursionFunction.h";
 //#include "Switch.h";
 //#include "While.h";
-#include "Pointers.h";
+//#include "Pointers.h";
+#include "Reference.h";
 
 using namespace std;
 
 void main() {
 	setlocale(LC_ALL, "Rus");
-	int a = 20, b = 7;
-	cout << a << "\t" << b << endl;
-	workPointers4(&a, &b);
-	cout << a << "\t" << b << endl;
+	int a = 20;
+	int b = 30;
+	workReference3(a , b);
+	cout << a << " " << b;
+	
 }

@@ -140,6 +140,7 @@
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="RecursionFunction.cpp" />
+    <ClCompile Include="Reference.cpp" />
     <ClCompile Include="Switch.cpp" />
     <ClCompile Include="While.cpp" />
   </ItemGroup>
@@ -156,6 +157,7 @@
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="Random.h" />
     <ClInclude Include="RecursionFunction.h" />
+    <ClInclude Include="Reference.h" />
     <ClInclude Include="Switch.h" />
     <ClInclude Include="While.h" />
   </ItemGroup>
