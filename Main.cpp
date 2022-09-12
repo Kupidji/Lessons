@@ -16,7 +16,8 @@
 //#include "While.h";
 //#include "Pointers.h";
 //#include "Reference.h";
-#include "New_Delete.h";
+//#include "New_Delete.h";
+#include "DinamicArray.h";
 
 using namespace std;
 
@@ -24,5 +25,5 @@ using namespace std;
 
 void main() {
 	setlocale(LC_ALL, "Rus");
-	
+	workDinamicArray();
 }
