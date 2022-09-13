@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include "DinamicArray.h";
-#include <string>
+
 
 using namespace std;
 
@@ -11,9 +11,52 @@ void workDinamicArray() {
 	cout << "Введите размер массива" << endl;
 	cin >> size;
 	int* arr = new int[size];
-	for (int i = 0; i < size; i++) {
-		arr[i] = rand() % 10;
-		cout << i + 1 << ") " << & arr[i] << "\t" << arr[i] << endl;
-	}
+	fillArray(arr, size);
+	showArray(arr, size);
 	delete[] arr;
+}
+
+// двумерный динамический массив
+
+void workDinamicArray2() {
+	int size1, size2;	
+	cout << "Введите 2 размера массива " << endl;
+	cin >> size1 >> size2;
+	int** arr = new int* [size1];
+	for (int i = 0; i < size1; i++) { // создание двумерного массива
+		arr[i] = new int[size2];
+	}
+
+	for (int i = 0; i < size1; i++) {
+		for (int j = 0; j < size2; j++) {
+			arr[i][j] = rand() % 10;
+			cout << arr[i][j] << "   ";
+		}
+	}
+
+	for (int i = 0; i < size1; i++) { //удаление вложеного массива из памяти
+		delete[] arr[i];
+	}
+	delete[] arr; // удаление массива массивов из памяти
+}
+
+// копирование динамического массива
+
+void workDinamicArray3() {
+	int size = 10;
+	int *arr1 = new int[size];
+	int* arr2 = new int[size];
+	fillArray(arr1, size);
+	fillArray(arr2, size);
+	cout << "Первый массив " << endl;
+	showArray(arr1, size);
+	cout << "Второй массив " << endl;
+	showArray(arr2, size);
+	for (int i = 0; i < size; i++) {
+		arr1[i] = arr2[i];
+	}
+	cout << "Первый массив после копирования" << endl;
+	showArray(arr1, size);
+	cout << "Второй массив после копирования" << endl;
+	showArray(arr2, size);
 }

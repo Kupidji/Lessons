@@ -25,5 +25,5 @@ using namespace std;
 
 void main() {
 	setlocale(LC_ALL, "Rus");
-	workDinamicArray();
+	workDinamicArray3();
 }

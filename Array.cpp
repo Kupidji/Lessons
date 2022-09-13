@@ -43,3 +43,15 @@ void workWithArray3(){
 	}
 }
 
+void fillArray(int *const arr, const int size) { //заполнение массива
+	for (int i = 0; i < size; i++) {
+		arr[i] = rand() % 100;
+	}
+}
+
+void showArray(const int* const arr, const int size) { //вывод массива
+	for (int i = 0; i < size; i++) {
+		cout << i + 1 << ") " << arr[i] << "\t";
+		if (i == size - 1) { cout << "\n"; }
+	}
+}
