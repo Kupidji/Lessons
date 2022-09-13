@@ -12,7 +12,6 @@ using namespace std;
 // если нужен конкретный диапозон, то пишем a = rand() % число;
 
 void workRandom() {
-	setlocale(LC_ALL, "Rus");
 	srand(time(NULL));
 	int a;
 	a = rand();
