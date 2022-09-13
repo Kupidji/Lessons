@@ -130,6 +130,7 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Cin.cpp" />
     <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="DinamicArray.cpp" />
     <ClCompile Include="File.cpp" />
     <ClCompile Include="For.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
@@ -137,6 +138,7 @@
     <ClCompile Include="LogicOperation.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Methods.cpp" />
+    <ClCompile Include="New_Delete.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="RecursionFunction.cpp" />
@@ -148,12 +150,14 @@
     <ClInclude Include="Array.h" />
     <ClInclude Include="Cin.h" />
     <ClInclude Include="Continue.h" />
+    <ClInclude Include="DinamicArray.h" />
     <ClInclude Include="File.h" />
     <ClInclude Include="For.h" />
     <ClInclude Include="HelloWorld.h" />
     <ClInclude Include="Inc_Dec.h" />
     <ClInclude Include="LogicOperation.h" />
     <ClInclude Include="Methods.h" />
+    <ClInclude Include="New_Delete.h" />
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="Random.h" />
     <ClInclude Include="RecursionFunction.h" />

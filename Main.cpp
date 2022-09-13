@@ -15,15 +15,15 @@
 //#include "Switch.h";
 //#include "While.h";
 //#include "Pointers.h";
-#include "Reference.h";
+//#include "Reference.h";
+//#include "New_Delete.h";
+#include "DinamicArray.h";
 
 using namespace std;
 
+
+
 void main() {
 	setlocale(LC_ALL, "Rus");
-	int a = 20;
-	int b = 30;
-	workReference3(a , b);
-	cout << a << " " << b;
-	
+	workDinamicArray();
 }
