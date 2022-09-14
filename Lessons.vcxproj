@@ -143,6 +143,7 @@
     <ClCompile Include="Random.cpp" />
     <ClCompile Include="RecursionFunction.cpp" />
     <ClCompile Include="Reference.cpp" />
+    <ClCompile Include="String.cpp" />
     <ClCompile Include="Switch.cpp" />
     <ClCompile Include="While.cpp" />
   </ItemGroup>
@@ -162,6 +163,7 @@
     <ClInclude Include="Random.h" />
     <ClInclude Include="RecursionFunction.h" />
     <ClInclude Include="Reference.h" />
+    <ClInclude Include="String.h" />
     <ClInclude Include="Switch.h" />
     <ClInclude Include="While.h" />
   </ItemGroup>
