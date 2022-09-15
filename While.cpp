@@ -1,7 +1,7 @@
 // Циклы while, do while
 
-#include <iostream>
 #include "While.h";
+
 using namespace std;
 
 void workWhile() {

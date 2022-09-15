@@ -1,8 +1,9 @@
 // Рекурсия
 
-#include <iostream>
-using namespace std;
 #include "RecursionFunction.h";
+
+using namespace std;
+
 
 string req(int a) {
 	if (a < 1) {

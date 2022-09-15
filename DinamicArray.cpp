@@ -1,6 +1,5 @@
 //Динамический массив
 
-#include <iostream>
 #include "DinamicArray.h";
 
 

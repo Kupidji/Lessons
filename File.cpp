@@ -1,10 +1,7 @@
 // Работа с файлами
 
-
-#include <iostream>
-#include <fstream>
 #include "File.h";
-#include <string>;
+
 using namespace std;
 
 // Для работы с файлами нужно

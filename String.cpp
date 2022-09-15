@@ -1,4 +1,5 @@
-#include <iostream>
+// Строки
+
 #include "String.h";
 
 using namespace std;

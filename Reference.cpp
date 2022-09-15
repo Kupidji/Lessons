@@ -1,7 +1,7 @@
 // —сылки
 
-#include <iostream>
 #include "Reference.h";
+
 using namespace std;
 
 

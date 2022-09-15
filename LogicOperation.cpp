@@ -1,7 +1,7 @@
 // Логические операции
 
-#include <iostream>
 #include "LogicOperation.h";
+
 using namespace std;
 
 

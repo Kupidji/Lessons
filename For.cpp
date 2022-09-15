@@ -1,8 +1,7 @@
 // Цикл for, фишки
 
-
-#include <iostream>
 #include "For.h";
+
 using namespace std;
 
 void workFor() {

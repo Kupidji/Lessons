@@ -1,7 +1,7 @@
 // Создание методов(функций)
 
-#include <iostream>
 #include "Methods.h";
+
 using namespace std;
 
 // void - функция ничего не возвращает
