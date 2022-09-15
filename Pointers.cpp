@@ -1,6 +1,6 @@
 // Указатели
 
-#include <iostream>
+
 using namespace std;
 #include "Pointers.h";
 
@@ -32,12 +32,43 @@ void workPointers4(int *pa, int *pb) { //С помощью указателей реализуем метод, к
 	(*pb) = c;
 
 }
-
 /*
 void main() {
+	setlocale(LC_ALL, "Rus");
 	int a = 0;
 	cout << a << endl;
 	workPointers3(&a);
 	cout << a << endl;
+}
+*/
+
+//указатель на функию
+/*
+1 пример
+
+void main() {
+	setlocale(LC_ALL, "Rus");
+	void (*test)();
+	test = workPointers2;
+	test();
+}
+
+2 пример 
+
+string getDataFromPC() {
+	return "PC info";
+}
+
+string getDataFromPhone() {
+	return "Phone info";
+}
+
+void showInfo(string (*func)()) {
+	cout << func() << endl;
+}
+
+void main() {
+	setlocale(LC_ALL, "Rus");
+	showInfo(getDataFromPC);
 }
 */
