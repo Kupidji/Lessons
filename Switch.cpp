@@ -1,7 +1,7 @@
 // Оператор Switch
 
-#include <iostream>
 #include "Switch.h";
+
 using namespace std;
 
 // Структура

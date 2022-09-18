@@ -1,6 +1,5 @@
 // Выделение дополнительной памяти
 
-#include <iostream>
 #include "New_Delete.h";
 
 using namespace std;

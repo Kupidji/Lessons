@@ -1,6 +1,5 @@
 // Ключевое слово continue
 
-#include <iostream>
 #include "Continue.h";
 using namespace std;
 

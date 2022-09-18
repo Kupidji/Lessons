@@ -1,8 +1,7 @@
 // Генератор случайных чисел
 
-#include <iostream>
-#include <ctime>
 #include "Random.h";
+
 using namespace std;
 
 // Чтобы генерировать случайное число нужно:

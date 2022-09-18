@@ -1,7 +1,7 @@
 //Инкремент и декремент
 
-#include <iostream>
 #include "Inc_Dec.h";
+
 using namespace std;
 
 void workInc_Dec() {

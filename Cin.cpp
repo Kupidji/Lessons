@@ -1,8 +1,7 @@
 //¬вод данных
 
-
-#include <iostream>
 #include "Cin.h";
+
 using namespace std;
 
 void workCin() {
