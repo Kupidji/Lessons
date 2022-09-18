@@ -3,7 +3,6 @@
 #include <iostream>
 #include "DinamicArray.h";
 
-
 using namespace std;
 
 void workDinamicArray() {
