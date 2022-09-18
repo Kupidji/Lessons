@@ -130,6 +130,7 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Cin.cpp" />
     <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="Create_Class.cpp" />
     <ClCompile Include="DinamicArray.cpp" />
     <ClCompile Include="File.cpp" />
     <ClCompile Include="For.cpp" />
@@ -150,12 +151,14 @@
     <ClInclude Include="Array.h" />
     <ClInclude Include="Cin.h" />
     <ClInclude Include="Continue.h" />
+    <ClInclude Include="Create_Class.h" />
     <ClInclude Include="DinamicArray.h" />
     <ClInclude Include="File.h" />
     <ClInclude Include="For.h" />
     <ClInclude Include="HelloWorld.h" />
     <ClInclude Include="Inc_Dec.h" />
     <ClInclude Include="LogicOperation.h" />
+    <ClInclude Include="Main.h" />
     <ClInclude Include="Methods.h" />
     <ClInclude Include="New_Delete.h" />
     <ClInclude Include="Pointers.h" />

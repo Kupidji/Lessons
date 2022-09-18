@@ -13,114 +13,135 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Procedure Programming">
+      <UniqueIdentifier>{56089d23-4721-444f-85b0-6260db93acf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\OOP">
+      <UniqueIdentifier>{9ecb45aa-70f0-4439-8f55-78b6f0216e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Procedure Programming">
+      <UniqueIdentifier>{9910bc60-8045-411a-982b-5ef38aa3bcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\OOP">
+      <UniqueIdentifier>{0b9e53e5-f44c-4ed7-acd4-b955f4f28648}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Array.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Cin.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Continue.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="For.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="HelloWorld.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Inc_Dec.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="LogicOperation.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Random.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Switch.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="While.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Methods.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="RecursionFunction.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="File.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Pointers.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="Array.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
     </ClCompile>
-    <ClCompile Include="Reference.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="Cin.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
     </ClCompile>
-    <ClCompile Include="New_Delete.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="Continue.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
     </ClCompile>
     <ClCompile Include="DinamicArray.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="For.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorld.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Inc_Dec.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicOperation.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Methods.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Delete.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursionFunction.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="While.cpp">
+      <Filter>Исходные файлы\Procedure Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_Class.cpp">
+      <Filter>Исходные файлы\OOP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
     </ClInclude>
     <ClInclude Include="Cin.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
     </ClInclude>
     <ClInclude Include="Continue.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="File.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="For.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="HelloWorld.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Inc_Dec.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="LogicOperation.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Methods.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Random.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="RecursionFunction.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Switch.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="While.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Pointers.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Reference.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="New_Delete.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
     </ClInclude>
     <ClInclude Include="DinamicArray.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="For.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorld.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc_Dec.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicOperation.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="Methods.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Delete.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointers.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursionFunction.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="Reference.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="While.h">
+      <Filter>Файлы заголовков\Procedure Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Create_Class.h">
+      <Filter>Файлы заголовков\OOP</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

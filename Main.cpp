@@ -1,29 +1,37 @@
 
 #include <iostream>
+#include "Main.h"; //Библиотека #include`ов
 
-//#include "Array.h";
-//#include "Cin.h";
-//#include "Continue.h";
-//#include "File.h";
-//#include "For.h";
-//#include "HelloWorld.h";
-//#include "Inc_Dec.h";
-//#include "LogicOperation.h";
-//#include "Methods.h";
-//#include "Random.h";
-//#include "RecursionFunction.h";
-//#include "Switch.h";
-//#include "While.h";
-//#include "Pointers.h";
-//#include "Reference.h";
-//#include "New_Delete.h";
-#include "DinamicArray.h";
 
 using namespace std;
 
+class coffeMachine {
+	
+private:
+	bool botton;
 
+	bool checkStatus() {
+		if (botton)	return true;
+			else return false;
+	}
+
+public: 
+	void setBotton(bool botton) {
+		this->botton = botton;
+	}
+
+	void status() {
+		if (checkStatus()) {
+			cout << "doing Coffee" << endl;
+		}
+		else {
+			cout << "Nothing" << endl;
+		}
+	}
+};
 
 void main() {
 	setlocale(LC_ALL, "Rus");
-	workDinamicArray3();
+	coffeMachine cf1;
+	
 }
